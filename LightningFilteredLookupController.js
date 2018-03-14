@@ -21,8 +21,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	},
 	selectItem : function(component, event, helper) {
 		var index = event.currentTarget.dataset.index;
-		var isParent = component.get("v.isParent");
-		helper.hlpSelectItem(component, index, isParent);
+		helper.hlpSelectItem(component, index);
 	},
 	toggleMenu : function(component, event, helper) {
 		helper.hlpToggleMenu(component);
