@@ -1,0 +1,8 @@
+Links for Lightning Inter-Component Communication
+
+https://developer.salesforce.com/blogs/developer-relations/2017/04/lightning-inter-component-communication-patterns.html
+https://salesforce.stackexchange.com/questions/55051/how-to-pass-values-across-lightning-components
+https://salesforce.stackexchange.com/questions/166016/communication-between-two-child-lightning-components/166030#166030
+https://albasfdc.com/2016/05/09/lightning-components-attributes/
+https://www.forcetalks.com/blog/how-to-pass-data-from-one-component-to-another-in-salesforce-lightning/
+https://eltoro.secure.force.com/apex/ArticlePreview?id=a07A000000dUgRkIAK
