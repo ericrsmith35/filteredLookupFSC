@@ -3,9 +3,9 @@ Updated lookupFSC to include Filters and Parent/Child lookups
 
 3 additional parameters added
 
-  Filter on which field? - Name of the field to filter the lookup on
-  Filter Value - Value of field to filter by
-  'Parent' or 'Child' Lookup? - default is Parent
+Filter on which field? - Name of the field to filter the lookup on
+Filter Value - Value of field to filter by
+'Parent' or 'Child' Lookup? - default is Parent
      
    If Child is entered, the filter value will be replaced by the value returned by the Parent lookup on the same screen. 
    Multiple Child lookups can be on a single flow screen and their values will be reset any time the Parent lookup changes.
