@@ -5,7 +5,7 @@
 	<design:attribute name="valueFieldName" label="I4_Output Which Field as Value?" />
 	<design:attribute name="label" label="I3_Field Label" />
 	<design:attribute name="selectedValue" label="O1_Output Value" />
-    <design:attribute name="filterFieldName" label="I6_Filter on which field?" />
+	<design:attribute name="filterFieldName" label="I6_Filter on which field?" />
 	<design:attribute name="filterFieldValue" label="I7_Filter Value" /> 
 	<design:attribute name="parentChild" label="I5_'Parent' or 'Child' Lookup?" />
 	
