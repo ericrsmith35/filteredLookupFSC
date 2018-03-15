@@ -123,8 +123,8 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             var filteredFieldName = component.get("v.filteredFieldName");
             var filterFieldValue = component.get("v.filterFieldValue");
             var isParent = component.get("v.isParent");
-            console.log('hlpGetRecords: I1_'+ sObjectName + ' I2_' + displayedFieldName + ' isI_' + isInit + ' isP_' + isParent +
-                ' I6_' + filteredFieldName + ' I7_' + filterFieldValue);
+            console.log('hlpGetRecords: I1_'+ sObjectName + ' I2_' + displayedFieldName + ' isI_' + isInit + ' !isP_' + !isParent +
+                ' I6_' + filteredFieldName + ' I7_' + filterFieldValue + ' M_' + component.get("v.masterFilterValue"));
 
             if(!isParent){
                 var filterFieldValue = component.get("v.masterFilterValue");
