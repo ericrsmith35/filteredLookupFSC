@@ -107,7 +107,17 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             this.showError(component,'hlpGetFieldHelp - ' + e.message)
         }
     },
-
+    /**
+     * Check for Parent or Child parameter (default is Parent)
+     */
+    hlpGetIsParent : function(component){
+        try{
+            component.set('v.isParent', component.get('v.parentChild') != 'Child');
+        }
+        catch(e){
+            this.showError(component, e.message);
+        }
+    },
 	// Description		: fetched records to display in pick list
 	// @param isInit	: Is this call from the init method ? (If so, the drop down will NOT be displayed)
 	hlpGetRecords : function(component, isInit) {
