@@ -44,7 +44,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 		document.getElementById(component.getGlobalId() + "_myinput").value = selectedFilterValue;
 	},
 	getMasterFilterValue : function(component, event, helper) {
-		if(!component.get("v.isParent")){
+		if(component.get('v.parentChild') == 'Child'){
 			component.set("v.masterFilterValue", event.getParam("MasterFilterValue"));
 			helper.clearField(component,true);
 			helper.toggleIcons(component,true);
