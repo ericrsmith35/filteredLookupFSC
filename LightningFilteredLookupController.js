@@ -14,7 +14,6 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	doInit : function(component, event, helper) {
         helper.hlpGetFieldHelp(component);
 		helper.hlpGetField(component);
-		helper.hlpGetIsParent(component);	
 	},
 	performLookup : function(component, event, helper) {
 		helper.hlpPerformLookup(component);
