@@ -132,7 +132,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             var searchWhereClause = component.get("v.searchWhereClause");
             var filteredFieldName = component.get("v.filteredFieldName");
             var filterFieldValue = component.get("v.filterFieldValue");
-            var isParent = component.get("v.isParent");
+            var isParent = component.get('v.parentChild') != 'Child';
             console.log('hlpGetRecords: I1_'+ sObjectName + ' I2_' + displayedFieldName + ' isI_' + isInit + ' !isP_' + !isParent +
                 ' I6_' + filteredFieldName + ' I7_' + filterFieldValue + ' M_' + component.get("v.masterFilterValue"));
 
